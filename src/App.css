@@ -1,6 +1,15 @@
 .App {
   text-align: center;
 }
+body, html, #root, .App {
+  background-color: #121212; /* dark background */
+  color: #ffffff; /* default text color white */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
 
 .App-logo {
   height: 40vmin;

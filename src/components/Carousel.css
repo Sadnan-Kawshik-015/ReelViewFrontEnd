@@ -49,3 +49,19 @@
 .hero-buttons button {
     font-weight: bold;
 }
+
+
+/* Default dots */
+.hero-carousel .slick-dots li button:before {
+  color: white !important;      /* force white color */
+  opacity: 1 !important;        /* ensure visibility */
+  font-size: 8px;               /* optional: make dots bigger */
+}
+
+/* Active dot */
+.hero-carousel .slick-dots li.slick-active button:before {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+
